@@ -1,9 +1,18 @@
-# Tags: latest, 10.0.20-debian-10-r30, 10.0.20, 10-debian-10, 10
+# Tags: latest, 10.0.20-debian-10-r31, 10.0.20, 10-debian-10, 10
 FROM bitnami/tomcat:latest
-FROM bitnami/tomcat:10.0.20-debian-10-r30
+FROM bitnami/tomcat:10.0.20-debian-10-r31
 FROM bitnami/tomcat:10.0.20
 FROM bitnami/tomcat:10-debian-10
 FROM bitnami/tomcat:10
+
+# Tags: _
+FROM bitnami/tomcat:_
+
+# Tags: 8.5.78-debian-10-r30, 8.5.78, 8.5-debian-10, 8.5
+FROM bitnami/tomcat:8.5.78-debian-10-r30
+FROM bitnami/tomcat:8.5.78
+FROM bitnami/tomcat:8.5-debian-10
+FROM bitnami/tomcat:8.5
 
 # Tags: 9.0.62-debian-10-r30, 9.0.62, 9.0-debian-10, 9.0
 FROM bitnami/tomcat:9.0.62-debian-10-r30
@@ -11,14 +20,11 @@ FROM bitnami/tomcat:9.0.62
 FROM bitnami/tomcat:9.0-debian-10
 FROM bitnami/tomcat:9.0
 
-# Tags: _
-FROM bitnami/tomcat:_
+# Tags: 10.0.20-debian-10-r30
+FROM bitnami/tomcat:10.0.20-debian-10-r30
 
-# Tags: 8.5.78-debian-10-r29, 8.5.78, 8.5-debian-10, 8.5
+# Tags: 8.5.78-debian-10-r29
 FROM bitnami/tomcat:8.5.78-debian-10-r29
-FROM bitnami/tomcat:8.5.78
-FROM bitnami/tomcat:8.5-debian-10
-FROM bitnami/tomcat:8.5
 
 # Tags: 9.0.62-debian-10-r29
 FROM bitnami/tomcat:9.0.62-debian-10-r29
