@@ -1,24 +1,123 @@
-# Tags: latest, 10.0.20-debian-10-r31, 10.0.20, 10-debian-10, 10
+# Tags: latest, 10.0.20-debian-10-r42, 10.0.20, 10-debian-10, 10
 FROM bitnami/tomcat:latest
-FROM bitnami/tomcat:10.0.20-debian-10-r31
+FROM bitnami/tomcat:10.0.20-debian-10-r42
 FROM bitnami/tomcat:10.0.20
 FROM bitnami/tomcat:10-debian-10
 FROM bitnami/tomcat:10
 
-# Tags: _
-FROM bitnami/tomcat:_
+# Tags: 9.0.62-debian-10-r41, 9.0.62, 9.0-debian-10, 9.0
+FROM bitnami/tomcat:9.0.62-debian-10-r41
+FROM bitnami/tomcat:9.0.62
+FROM bitnami/tomcat:9.0-debian-10
+FROM bitnami/tomcat:9.0
 
-# Tags: 8.5.78-debian-10-r30, 8.5.78, 8.5-debian-10, 8.5
-FROM bitnami/tomcat:8.5.78-debian-10-r30
+# Tags: 8.5.78-debian-10-r41, 8.5.78, 8.5-debian-10, 8.5
+FROM bitnami/tomcat:8.5.78-debian-10-r41
 FROM bitnami/tomcat:8.5.78
 FROM bitnami/tomcat:8.5-debian-10
 FROM bitnami/tomcat:8.5
 
-# Tags: 9.0.62-debian-10-r30, 9.0.62, 9.0-debian-10, 9.0
+# Tags: _
+FROM bitnami/tomcat:_
+
+# Tags: 9.0.62-debian-10-r40
+FROM bitnami/tomcat:9.0.62-debian-10-r40
+
+# Tags: 8.5.78-debian-10-r40
+FROM bitnami/tomcat:8.5.78-debian-10-r40
+
+# Tags: 10.0.20-debian-10-r41
+FROM bitnami/tomcat:10.0.20-debian-10-r41
+
+# Tags: 9.0.62-debian-10-r39
+FROM bitnami/tomcat:9.0.62-debian-10-r39
+
+# Tags: 8.5.78-debian-10-r39
+FROM bitnami/tomcat:8.5.78-debian-10-r39
+
+# Tags: 10.0.20-debian-10-r40
+FROM bitnami/tomcat:10.0.20-debian-10-r40
+
+# Tags: 9.0.62-debian-10-r38
+FROM bitnami/tomcat:9.0.62-debian-10-r38
+
+# Tags: 8.5.78-debian-10-r38
+FROM bitnami/tomcat:8.5.78-debian-10-r38
+
+# Tags: 10.0.20-debian-10-r39
+FROM bitnami/tomcat:10.0.20-debian-10-r39
+
+# Tags: 10.0.20-debian-10-r38
+FROM bitnami/tomcat:10.0.20-debian-10-r38
+
+# Tags: 8.5.78-debian-10-r37
+FROM bitnami/tomcat:8.5.78-debian-10-r37
+
+# Tags: 9.0.62-debian-10-r37
+FROM bitnami/tomcat:9.0.62-debian-10-r37
+
+# Tags: 10.0.20-debian-10-r37
+FROM bitnami/tomcat:10.0.20-debian-10-r37
+
+# Tags: 8.5.78-debian-10-r36
+FROM bitnami/tomcat:8.5.78-debian-10-r36
+
+# Tags: 9.0.62-debian-10-r36
+FROM bitnami/tomcat:9.0.62-debian-10-r36
+
+# Tags: 10.0.20-debian-10-r36
+FROM bitnami/tomcat:10.0.20-debian-10-r36
+
+# Tags: 8.5.78-debian-10-r35
+FROM bitnami/tomcat:8.5.78-debian-10-r35
+
+# Tags: 9.0.62-debian-10-r35
+FROM bitnami/tomcat:9.0.62-debian-10-r35
+
+# Tags: 10.0.20-debian-10-r35
+FROM bitnami/tomcat:10.0.20-debian-10-r35
+
+# Tags: 8.5.78-debian-10-r34
+FROM bitnami/tomcat:8.5.78-debian-10-r34
+
+# Tags: 9.0.62-debian-10-r34
+FROM bitnami/tomcat:9.0.62-debian-10-r34
+
+# Tags: 10.0.20-debian-10-r34
+FROM bitnami/tomcat:10.0.20-debian-10-r34
+
+# Tags: 8.5.78-debian-10-r33
+FROM bitnami/tomcat:8.5.78-debian-10-r33
+
+# Tags: 9.0.62-debian-10-r33
+FROM bitnami/tomcat:9.0.62-debian-10-r33
+
+# Tags: 10.0.20-debian-10-r33
+FROM bitnami/tomcat:10.0.20-debian-10-r33
+
+# Tags: 8.5.78-debian-10-r32
+FROM bitnami/tomcat:8.5.78-debian-10-r32
+
+# Tags: 9.0.62-debian-10-r32
+FROM bitnami/tomcat:9.0.62-debian-10-r32
+
+# Tags: 10.0.20-debian-10-r32
+FROM bitnami/tomcat:10.0.20-debian-10-r32
+
+# Tags: 8.5.78-debian-10-r31
+FROM bitnami/tomcat:8.5.78-debian-10-r31
+
+# Tags: 9.0.62-debian-10-r31
+FROM bitnami/tomcat:9.0.62-debian-10-r31
+
+# Tags: 10.0.20-debian-10-r31
+FROM bitnami/tomcat:10.0.20-debian-10-r31
+
+# Tags: 8.5.78-debian-10-r30
+FROM bitnami/tomcat:8.5.78-debian-10-r30
+
+# Tags: 9.0.62-debian-10-r30
 FROM bitnami/tomcat:9.0.62-debian-10-r30
-FROM bitnami/tomcat:9.0.62
-FROM bitnami/tomcat:9.0-debian-10
-FROM bitnami/tomcat:9.0
 
 # Tags: 10.0.20-debian-10-r30
 FROM bitnami/tomcat:10.0.20-debian-10-r30
@@ -181,93 +280,3 @@ FROM bitnami/tomcat:9.0.62-debian-10-r12
 
 # Tags: 10.0.20-debian-10-r12
 FROM bitnami/tomcat:10.0.20-debian-10-r12
-
-# Tags: 10.0.20-debian-10-r11
-FROM bitnami/tomcat:10.0.20-debian-10-r11
-
-# Tags: 8.5.78-debian-10-r11
-FROM bitnami/tomcat:8.5.78-debian-10-r11
-
-# Tags: 9.0.62-debian-10-r11
-FROM bitnami/tomcat:9.0.62-debian-10-r11
-
-# Tags: 8.5.78-debian-10-r10
-FROM bitnami/tomcat:8.5.78-debian-10-r10
-
-# Tags: 9.0.62-debian-10-r10
-FROM bitnami/tomcat:9.0.62-debian-10-r10
-
-# Tags: 10.0.20-debian-10-r10
-FROM bitnami/tomcat:10.0.20-debian-10-r10
-
-# Tags: 8.5.78-debian-10-r9
-FROM bitnami/tomcat:8.5.78-debian-10-r9
-
-# Tags: 9.0.62-debian-10-r9
-FROM bitnami/tomcat:9.0.62-debian-10-r9
-
-# Tags: 10.0.20-debian-10-r9
-FROM bitnami/tomcat:10.0.20-debian-10-r9
-
-# Tags: 8.5.78-debian-10-r8
-FROM bitnami/tomcat:8.5.78-debian-10-r8
-
-# Tags: 9.0.62-debian-10-r8
-FROM bitnami/tomcat:9.0.62-debian-10-r8
-
-# Tags: 10.0.20-debian-10-r8
-FROM bitnami/tomcat:10.0.20-debian-10-r8
-
-# Tags: 9.0.62-debian-10-r7
-FROM bitnami/tomcat:9.0.62-debian-10-r7
-
-# Tags: 8.5.78-debian-10-r7
-FROM bitnami/tomcat:8.5.78-debian-10-r7
-
-# Tags: 10.0.20-debian-10-r7
-FROM bitnami/tomcat:10.0.20-debian-10-r7
-
-# Tags: 9.0.62-debian-10-r6
-FROM bitnami/tomcat:9.0.62-debian-10-r6
-
-# Tags: 8.5.78-debian-10-r6
-FROM bitnami/tomcat:8.5.78-debian-10-r6
-
-# Tags: 10.0.20-debian-10-r6
-FROM bitnami/tomcat:10.0.20-debian-10-r6
-
-# Tags: 9.0.62-debian-10-r5
-FROM bitnami/tomcat:9.0.62-debian-10-r5
-
-# Tags: 10.0.20-debian-10-r5
-FROM bitnami/tomcat:10.0.20-debian-10-r5
-
-# Tags: 8.5.78-debian-10-r5
-FROM bitnami/tomcat:8.5.78-debian-10-r5
-
-# Tags: 9.0.62-debian-10-r4
-FROM bitnami/tomcat:9.0.62-debian-10-r4
-
-# Tags: 10.0.20-debian-10-r4
-FROM bitnami/tomcat:10.0.20-debian-10-r4
-
-# Tags: 8.5.78-debian-10-r4
-FROM bitnami/tomcat:8.5.78-debian-10-r4
-
-# Tags: 10.0.20-debian-10-r3
-FROM bitnami/tomcat:10.0.20-debian-10-r3
-
-# Tags: 9.0.62-debian-10-r3
-FROM bitnami/tomcat:9.0.62-debian-10-r3
-
-# Tags: 8.5.78-debian-10-r3
-FROM bitnami/tomcat:8.5.78-debian-10-r3
-
-# Tags: 10.0.20-debian-10-r2
-FROM bitnami/tomcat:10.0.20-debian-10-r2
-
-# Tags: 9.0.62-debian-10-r2
-FROM bitnami/tomcat:9.0.62-debian-10-r2
-
-# Tags: 8.5.78-debian-10-r2
-FROM bitnami/tomcat:8.5.78-debian-10-r2
